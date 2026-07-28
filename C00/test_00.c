@@ -1,4 +1,4 @@
-#include "ex00.h"
+#include "ft_putchar.c"
 
 int	main(int argc, char* argv[])
 {
