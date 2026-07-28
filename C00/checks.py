@@ -4,4 +4,4 @@ import check50
 def ft_putchar_compiles():
     """ft_putchar compiles"""
     check50.include("test_00.c", "ex00.h")
-    check50.run("gcc -Wall -Werror -Wextra ft_putchar.c test_00.c").exit(0)
+    check50.run("gcc -Wall -Werror -Wextra test_00.c ft_putchar.c ").exit(0)
